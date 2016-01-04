@@ -1,0 +1,54 @@
+body {
+    background-color: #d7a9ff;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #1d2126;
+}
+.logo {
+    float: left;
+    padding: 32px 0;
+}
+
+.menu {
+    float: left;
+    margin-left: 390px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 26px 10px 25px;
+}
+
+.menu-link {
+    display: inline-block;
+    padding: 8px 10px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a4aead
+}
+
+.menu-item:hover {
+    border-radius: 3px;
+    box-shadow: 0 0 0 2px #5b6168;
+}
+
+.menu-item-active {
+    border-radius: 3px;
+    box-shadow: 0 0 0 2px #23b7a4;
+}
+
+.menu-item-active .menu-link {
+    color: #23b7a4;
+}
