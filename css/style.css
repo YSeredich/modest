@@ -1,5 +1,5 @@
 body {
-    background-color: #d7a9ff;
+    background-color: #a376bd;
 }
 .clearfix:after {
     content: '';
@@ -10,6 +10,24 @@ body {
 .container {
     width: 1440px;
     margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    margin-right: 11px;
+    padding: 8px 10px;
+
+    border-radius: 3px;
+    border: 2px solid white;
+
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover {
+    border: 2px solid #23b7a4;
+    background: #23b7a4;
 }
 
 .header {
@@ -36,7 +54,7 @@ body {
 
     text-transform: uppercase;
     text-decoration: none;
-    color: #a4aead
+    color: #a4aead;
 }
 
 .menu-item:hover {
@@ -51,4 +69,29 @@ body {
 
 .menu-item-active .menu-link {
     color: #23b7a4;
+}
+
+.banner {
+    background: #3a454d url("../img/banner.jpg")
+}
+.welcome-title {
+    padding-top: 220px;
+
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #fff;
+}
+
+.welcome-text {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 740px;
+
+    font-size: 16px;
+    color: #ccd0d7;
+}
+
+.welcome-btns {
+    padding-bottom: 250px;
 }
