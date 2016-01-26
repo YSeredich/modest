@@ -30,6 +30,28 @@ body {
     background: #23b7a4;
 }
 
+.section-title {
+    position: relative;
+    margin-bottom: 60px;
+
+    padding-left: 25px;
+
+    color: #292f36;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.section-title::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 35px;
+    background-color: #e1e6ea;
+    z-index: 10;
+}
+
 .header {
     background-color: #1d2126;
 }
@@ -94,4 +116,71 @@ body {
 
 .welcome-btns {
     padding-bottom: 250px;
+}
+
+.about {
+    padding-top: 80px;
+    background: #fff;
+}
+
+.about-missions {
+    width: 655px;
+    float: left;
+}
+
+.mission {
+    margin-bottom: 26px;
+
+    color: #8d8f92;
+}
+
+.mission em {
+    font-weight: bold;
+}
+.about-goals {
+    margin-left: 685px;
+}
+
+.goal {
+    position: relative;
+    padding-left: 70px;
+}
+
+.goal::before {
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    padding: 17px 0;
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: #23b7a4;
+    color: #fff;
+    text-align: center;
+
+}
+
+.goal-1::before {
+    content: '01';
+}
+
+.goal-2::before {
+    content: '02';
+}
+
+.goal-3::before {
+    content: '03';
+}
+
+.goal-title {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.goal-text {
+    margin-bottom: 25px;
+    color: #8d8f92;
+    font-size: 16px;
 }
