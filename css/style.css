@@ -1,5 +1,5 @@
 body {
-    background-color: #a376bd;
+
 }
 .clearfix:after {
     content: '';
@@ -121,6 +121,7 @@ body {
 .about {
     padding-top: 80px;
     background: #fff;
+    border-bottom: 1px solid #dde1e4;
 }
 
 .about-missions {
@@ -137,6 +138,31 @@ body {
 .mission em {
     font-weight: bold;
 }
+
+.mission-second-part {
+    margin-bottom: 55px;
+}
+
+.about-social {
+    margin-bottom: 100px;
+}
+
+.social-btn {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+
+    font-size: 0;
+    text-decoration: none;
+
+    background: #c8cdd0 url("../img/sprite.png") no-repeat center;
+}
+
+.social-btn:hover {
+    background-color: #d0d5d9;
+}
+
 .about-goals {
     margin-left: 685px;
 }
@@ -158,7 +184,6 @@ body {
     background: #23b7a4;
     color: #fff;
     text-align: center;
-
 }
 
 .goal-1::before {
@@ -183,4 +208,23 @@ body {
     margin-bottom: 25px;
     color: #8d8f92;
     font-size: 16px;
+}
+
+.team,
+.services,
+.contact {
+    padding-top: 80px;
+    background-color: #fff;
+}
+
+.work,
+.features {
+    padding-top: 80px;
+    color: #fff;
+    background-color: #3a454d;
+}
+
+footer {
+    color: #fff;
+    background-color: #3a454d;
 }
