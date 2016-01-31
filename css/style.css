@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    width: 1440px;
+    width: 1140px;
     margin: 0 auto;
 }
 
@@ -66,7 +66,7 @@ body {
 
 .menu {
     float: left;
-    margin-left: 390px;
+    margin-left: 300px;
 }
 
 .menu-item {
@@ -272,10 +272,6 @@ body {
     margin-left: 0;
 }
 
-.portfolio-img:first-child {
-    margin-left: 0;
-}
-
 .work-more {
     width: 151px;
     margin: 0 auto;
@@ -284,6 +280,23 @@ body {
 .more-btn {
     padding: 8px 5px;
 }
+
+.services-item {
+    margin-left: 30px;
+    margin-bottom: 95px;
+    float: left;
+    width: 262px;
+    font-size: 16px;
+}
+
+.services-item:nth-child(4n+1) {
+    margin-left: 0;
+}
+
+.services-items {
+    margin-bottom: 165px;
+}
+
 
 footer {
     color: #fff;
