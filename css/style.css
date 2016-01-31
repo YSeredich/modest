@@ -217,6 +217,39 @@ body {
     background-color: #fff;
 }
 
+.team-member {
+    margin-left: 30px;
+    margin-bottom: 100px;
+    float: left;
+    width: 263px;
+}
+
+.team-member:first-child {
+    margin-left: 0;
+}
+.member-info {
+    padding-left: 20px;
+    background-color: #e1e6ea;
+}
+
+.member-name {
+    padding-top: 20px;
+    font-size: 16px;
+    color: #292f36;
+    text-transform: uppercase;
+}
+
+.member-position {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: #8d8f92;
+}
+
+.member-2,
+.member-4 {
+    width: 262px;
+}
 .work,
 .features {
     padding-top: 80px;
