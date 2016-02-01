@@ -343,7 +343,37 @@ body {
     text-align: center;
     line-height: 26px;
 }
+
+.map {
+    margin-bottom: 60px;
+}
+
+.contact-info {
+    width: 555px;
+}
+
+.contact-info-title {
+    color: #292f36;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.contact-info-text {
+    margin-bottom: 100px;
+    color: #8d8f92;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.contact-text {
+    margin-top: 40px;
+}
+
 footer {
     color: #fff;
     background-color: #3a454d;
+}
+
+.copyright {
+    padding: 38px 0;
 }
