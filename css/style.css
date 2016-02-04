@@ -1,6 +1,52 @@
-body {
-
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?uyeo8l');
+    src:    url('../fonts/icomoon.eot?uyeo8l#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?uyeo8l') format('truetype'),
+    url('../fonts/icomoon.woff?uyeo8l') format('woff'),
+    url('../fonts/icomoon.svg?uyeo8l#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: #fff;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-behance:before {
+    content: "\e900";
+}
+.icon-google:before {
+    content: "\e901";
+}
+.icon-facebook:before {
+    content: "\e902";
+}
+.icon-twitter:before {
+    content: "\e903";
+}
+.icon-dribbble:before {
+    content: "\e904";
+}
+.icon-skype:before {
+    content: "\e905";
+}
+.icon-linkedin2:before {
+    content: "\e906";
+}
+
 .clearfix:after {
     content: '';
     display: table;
@@ -150,22 +196,27 @@ body {
 
 .about-social {
     margin-bottom: 100px;
+    font-size: 36px;
 }
 
 .social-btn {
     display: inline-block;
-    vertical-align: top;
+    text-align: center;
     width: 60px;
-    height: 60px;
-
-    font-size: 0;
+    height: 40px;
+    padding: 10px 0;
     text-decoration: none;
-
-    background: #c8cdd0 url("../img/sprite.png") no-repeat center;
+    background-color: #c8cdd0;
 }
 
 .social-btn:hover {
     background-color: #d0d5d9;
+}
+
+.social-btn-footer,
+.social-btn-footer:hover {
+    background-color: transparent;
+    font-size: 18px;
 }
 
 .about-goals {
@@ -223,6 +274,10 @@ body {
     background-color: #fff;
 }
 
+.actions {
+    display: none;
+    font-size: 18px;
+}
 .team-member {
     margin-left: 30px;
     margin-bottom: 100px;
@@ -370,10 +425,16 @@ body {
 }
 
 footer {
+    padding: 17px 0;
     color: #fff;
     background-color: #3a454d;
 }
 
 .copyright {
-    padding: 38px 0;
+    float: left;
+}
+
+.footer-social {
+    float: right;
+
 }
