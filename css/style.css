@@ -25,6 +25,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 .icon-behance:before {
     content: "\e900";
 }
@@ -84,6 +87,7 @@
     color: #292f36;
     font-size: 36px;
     text-transform: uppercase;
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 
 .work-title,
@@ -144,7 +148,7 @@
 }
 
 .banner {
-    background: #3a454d url("../img/banner.jpg")
+    background: #3a454d url("../img/banner.jpg") no-repeat center;
 }
 .welcome-title {
     padding-top: 220px;
