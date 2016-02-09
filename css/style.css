@@ -63,8 +63,8 @@ body {
 
 .btn {
     display: inline-block;
-    margin-right: 11px;
-    padding: 8px 10px;
+    margin-right: 8px;
+    padding: 11px 15px;
 
     border-radius: 3px;
     border: 2px solid white;
@@ -82,7 +82,7 @@ body {
 
 .section-title {
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 54px;
     padding-left: 25px;
 
     color: #292f36;
@@ -163,8 +163,13 @@ body {
 .banner {
     background: #3a454d url("../img/banner.jpg") no-repeat center;
 }
+
+.welcome {
+    min-height: 660px;
+}
+
 .welcome-title {
-    padding-top: 220px;
+    padding-top: 221px;
 
     text-transform: uppercase;
     font-size: 36px;
@@ -175,8 +180,8 @@ body {
 .welcome-text {
     margin-bottom: 30px;
     padding-top: 20px;
-    padding-bottom: 10px;
-    width: 740px;
+    padding-bottom: 8px;
+    width: 680px;
 
     font-size: 16px;
     color: #ccd0d7;
@@ -209,23 +214,30 @@ body {
 }
 
 .mission-second-part {
-    margin-bottom: 55px;
+    margin-bottom: 47px;
 }
 
 .about-social {
     margin-bottom: 100px;
-    font-size: 36px;
+    font-size: 0;
 }
 
 .social-btn {
     display: inline-block;
+    margin-left: 1px;
     text-align: center;
     width: 60px;
-    height: 40px;
-    padding: 10px 0;
+    height: 20px;
+    padding: 20px 0;
     text-decoration: none;
+    font-size: 22px;
     background-color: #c8cdd0;
 }
+
+.social-btn:first-child {
+    margin-left: 0;
+}
+
 
 .social-btn:hover {
     background-color: #d0d5d9;
@@ -238,12 +250,13 @@ body {
 }
 
 .about-goals {
-    margin-left: 685px;
+    margin-left: 681px;
 }
 
 .goal {
     position: relative;
     padding-left: 70px;
+    padding-top: 8px;
 }
 
 .goal::before {
@@ -252,7 +265,7 @@ body {
     height: 15px;
     padding: 17px 0;
     content: '';
-    top: 0;
+    top: 7px;
     left: 0;
     z-index: 10;
     background: #23b7a4;
@@ -273,7 +286,7 @@ body {
 }
 
 .goal-title {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     text-transform: uppercase;
     font-size: 18px;
     font-family: 'Quattrocento Sans', sans-serif;
