@@ -63,16 +63,21 @@ body {
 
 .btn {
     display: inline-block;
-    margin-right: 8px;
-    padding: 11px 15px;
+    padding: 12px 20px;
 
     border-radius: 3px;
     border: 2px solid white;
 
     color: #fff;
+    font-size: 14px;
+    white-space: nowrap;
     font-family: 'Quattrocento Sans', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.view-more-btn {
+    margin-right: 8px;
 }
 
 .btn:hover {
@@ -310,6 +315,10 @@ body {
     display: none;
     font-size: 18px;
 }
+.team-members {
+    padding-top: 5px;
+}
+
 .team-member {
     margin-left: 30px;
     margin-bottom: 100px;
@@ -326,7 +335,7 @@ body {
 }
 
 .member-name {
-    padding-top: 20px;
+    padding-top: 17px;
     font-size: 16px;
     color: #292f36;
     text-transform: uppercase;
@@ -334,7 +343,7 @@ body {
 }
 
 .member-position {
-    padding-top: 10px;
+    padding-top: 7px;
     padding-bottom: 20px;
     font-size: 14px;
     color: #8d8f92;
@@ -351,7 +360,9 @@ body {
     background-color: #3a454d;
     padding-bottom: 60px;
 }
-
+.portfolio {
+    padding-top: 3px;
+}
 .portfolio-img {
     float: left;
     margin-left: 30px;
@@ -364,11 +375,11 @@ body {
 
 .work-more {
     width: 151px;
-    margin: 0 auto;
+    margin: 27px auto 0;
 }
 
 .more-btn {
-    padding: 8px 5px;
+    padding: 13px 20px;
 }
 
 .services-item {
@@ -381,7 +392,7 @@ body {
 
 .services-item:nth-child(n+5) {
     margin-top: 90px;
-    margin-bottom: 165px;
+    margin-bottom: 157px;
 }
 
 .services-item:nth-child(4n+1) {
@@ -389,18 +400,21 @@ body {
 }
 
 .services-img {
-    margin: 0 auto 35px;
+    margin: 0 auto 36px;
     width: 48px;
 }
 
 .services-item-title {
-    margin-bottom: 30px;
+    margin-bottom: 21px;
     color: #292f36;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Quattrocento Sans', sans-serif;
 }
 
+.services-item:nth-child(n+5) .services-img{
+    margin-bottom: 30px;
+}
 .services-item-text {
     color: #8d8f92;
     text-align: center;
