@@ -194,7 +194,33 @@ body {
 }
 
 .welcome-btns {
-    padding-bottom: 250px;
+    padding-bottom: 208px;
+}
+
+.paginator {
+    margin-left: 1082px;
+    font-size: 0;
+}
+
+.toggle {
+    display: inline-block;
+    margin-left: 9px;
+    width: 9px;
+    height: 9px;
+
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.toggle:first-child {
+    margin-left: 0;
+}
+
+.active-toggle {
+    background-color: #fff;
 }
 
 .about {
