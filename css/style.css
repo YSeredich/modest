@@ -214,7 +214,7 @@ body {
     color: #8d8f92;
 }
 
-.mission em {
+em {
     font-weight: bold;
 }
 
@@ -246,12 +246,6 @@ body {
 
 .social-btn:hover {
     background-color: #d0d5d9;
-}
-
-.social-btn-footer,
-.social-btn-footer:hover {
-    background-color: transparent;
-    font-size: 18px;
 }
 
 .about-goals {
@@ -305,8 +299,7 @@ body {
 }
 
 .team,
-.services,
-.contact {
+.services {
     padding-top: 80px;
     background-color: #fff;
 }
@@ -366,7 +359,7 @@ body {
 .portfolio-img {
     float: left;
     margin-left: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
 
 .portfolio-img:nth-child(3n+1) {
@@ -375,7 +368,7 @@ body {
 
 .work-more {
     width: 151px;
-    margin: 27px auto 0;
+    margin: 31px auto 0;
 }
 
 .more-btn {
@@ -417,15 +410,20 @@ body {
 }
 .services-item-text {
     color: #8d8f92;
-    text-align: center;
+
     line-height: 26px;
+}
+
+.features-title {
+    padding-top: 7px;
+    margin-bottom: 57px;
 }
 
 .post-item {
     width: 360px;
     float: left;
     margin-left: 30px;
-    margin-bottom: 120px;
+    margin-bottom: 57px;
 }
 
 .post-item:first-child {
@@ -433,23 +431,35 @@ body {
 }
 
 .post-item-img {
-    margin-bottom: 55px;
+    margin-bottom: 51px;
 }
 .post-item-title {
     text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
     font-family: 'Quattrocento Sans', sans-serif;
 }
 
 .post-item-text {
     color: #dcdfe1;
-    text-align: center;
     line-height: 26px;
 }
 
+.contact-title {
+    padding-left: 40px;
+    margin-bottom: 58px;
+}
+
+.contact-title:before {
+    left: 16px;
+}
+
 .map {
-    margin-bottom: 60px;
+    margin-bottom: 57px;
+}
+.contact {
+    padding-top: 65px;
+    background-color: #fff;
 }
 
 .contact-info {
@@ -457,27 +467,35 @@ body {
 }
 
 .contact-info-title {
+    margin-bottom: 30px;
+    padding-left: 6px;
     color: #292f36;
     font-size: 20px;
     text-transform: uppercase;
     font-family: 'Quattrocento Sans', sans-serif;
 }
 
+.contact-text {
+    margin-bottom: 26px;
+}
+
 .contact-info-text {
-    margin-bottom: 100px;
+    margin-bottom: 96px;
     color: #8d8f92;
     line-height: 26px;
     font-size: 16px;
 }
 
-.contact-text {
-    margin-top: 40px;
-}
-
 footer {
-    padding: 17px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
     color: #fff;
     background-color: #3a454d;
+}
+
+.footer-container {
+    padding-top: 40px;
+    padding-bottom: 35px;
 }
 
 .copyright {
@@ -485,6 +503,15 @@ footer {
 }
 
 .footer-social {
-    float: right;
-
+    margin-left: 975px;
 }
+
+.social-btn-footer {
+    display: inline-block;
+    margin-left: 13px;
+    text-align: center;
+    height: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
