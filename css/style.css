@@ -78,11 +78,12 @@ body {
 
 .view-more-btn {
     margin-right: 8px;
+
 }
 
 .btn:hover {
-    border: 2px solid #23b7a4;
     background: #23b7a4;
+    border: 2px solid #23b7a4;
 }
 
 .section-title {
@@ -656,8 +657,10 @@ em {
     background: #23b7a4;
 }
 
-.btn:hover {
+.send-btn:hover {
     border: none;
+    opacity: 0.6;
+    cursor: pointer;
 }
 
 footer {
