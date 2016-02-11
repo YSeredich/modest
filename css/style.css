@@ -65,7 +65,7 @@ body {
     display: inline-block;
     padding: 12px 20px;
 
-    border-radius: 3px;
+    border-radius: 5px;
     border: 2px solid white;
 
     color: #fff;
@@ -540,6 +540,10 @@ em {
     line-height: 26px;
 }
 
+.contact-container {
+    position: relative;
+}
+
 .contact-title {
     padding-left: 40px;
     margin-bottom: 58px;
@@ -559,6 +563,7 @@ em {
 
 .contact-info {
     width: 555px;
+    float: left;
 }
 
 .contact-info-title {
@@ -579,6 +584,80 @@ em {
     color: #8d8f92;
     line-height: 26px;
     font-size: 16px;
+}
+
+.modal-content-contact-us {
+    position: absolute;
+    right: 0;
+    bottom: 75px;
+    width: 495px;
+    padding: 30px;
+    background-color: #fff;
+    margin-left: 585px;
+}
+
+.input-area {
+    font-size: 0;
+}
+
+.name-block,
+.mail-block {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.user-name,
+.user-mail {
+    width: 221px;
+    min-height: 40px;
+    margin-top: 3px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    background-color: #eaeef1;
+    outline: none;
+}
+
+.name-lbl,
+.mail-lbl,
+.letter-lbl{
+    padding-left: 6px;
+    font-size: 14px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-transform: uppercase;
+    color: #8d8f92;
+}
+
+.user-message {
+    width: 463px;
+    min-height: 129px;
+    margin-top: 6px;
+    margin-bottom: 30px;
+    padding: 15px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000;
+    border-radius: 2px;
+    background-color: #eaeef1;
+}
+
+.send-btn {
+    margin-bottom: 8px;
+    padding: 14px 25px;
+    border: none;
+    background: #23b7a4;
+}
+
+.btn:hover {
+    border: none;
 }
 
 footer {
